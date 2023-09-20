@@ -8,6 +8,6 @@ RUN rm -rf /usr/local/apache2/htdocs/*
 
 RUN git clone https://github.com/denilsonbonatti/linux-site-dio.git /usr/local/apache2/htdocs/
 
-
+EXPOSE 80
 
 
